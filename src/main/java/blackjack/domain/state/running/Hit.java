@@ -13,7 +13,6 @@ public class Hit extends Running {
         super(cards);
     }
 
-    // TODO: dealer의 경우는 어떻게 할 것인가... 따로?? 고민 필요
     @Override
     public State draw(final Card card) {
         cards.add(card);
